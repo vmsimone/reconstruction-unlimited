@@ -1,13 +1,16 @@
-function openAboutPage() {
-  $('main').html(``);
+function showAbout() {
+  console.log('showing about');
+  $('main').animate({
+        left: '-100%'
+  });
+  //   $('main').append(`
+    
+  // `);
 }
 
-function navListener(id, callback) {
-  $(id).on('click', callback);
+function readyScroll(callback) {
+  console.log('readied');
+  $('button').click(callback);
 }
 
-function readyNavLinks() {
-  openAboutPage();
-}
-
-$(readyNavLinks);
+$(readyScroll(showAbout));

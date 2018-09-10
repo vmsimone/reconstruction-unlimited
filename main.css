@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'norwester';
+  src: url('./fonts/norwester.otf'); /* IE9 Compat Modes */
+  src: url('./fonts/norwester.otf') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/norwester.otf') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/norwester.otf') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/norwester.otf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/norwester.otf') format('svg'); /* Legacy iOS */
+}
+
+html, body, main, section {
+  height: 100%;
+  max-height: 900px;
+}
+
+body {
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: 'norwester';
+}
+
+main {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.cover p {
+  color: red;
+  font-family: 'Courgette', cursive;
+  font-size: 24px;
+}
