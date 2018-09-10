@@ -10,7 +10,7 @@
 
 html, body, main, section {
   height: 100%;
-  max-height: 900px;
+  min-height: 500px;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
 
 main {
   display: block;
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -64,4 +64,8 @@ span {
 
 footer {
   margin-top: 50%;
+}
+
+@media only screen and (min-width: 660px) {
+  width: 60%;
 }
