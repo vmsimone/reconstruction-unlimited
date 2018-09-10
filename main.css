@@ -16,7 +16,7 @@ html, body, main, section {
 body {
   background: black;
   color: white;
-  text-align: center;
+  text-align: left;
   font-family: 'norwester';
 }
 
@@ -30,14 +30,38 @@ h1 {
   font-size: 56px;
 }
 
-button {
-  background: none;
-  border: none;
-  outline: none;
+h2 {
+  font-size: 28px;
+  margin-bottom: 80px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.cover, .contact {
+  text-align: center;
+}
+
+.cover {
+  margin-top: 40%;
+  height: 70%;
 }
 
 .cover p {
   color: red;
   font-family: 'Courgette', cursive;
   font-size: 24px;
+}
+
+.contact {
+  height: 60%;
+}
+
+span {
+  color: red;
+}
+
+footer {
+  margin-top: 50%;
 }
