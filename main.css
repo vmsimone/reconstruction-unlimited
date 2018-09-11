@@ -8,9 +8,8 @@
        url('./fonts/norwester.otf') format('svg'); /* Legacy iOS */
 }
 
-html, body, main, section {
+html, body, main {
   height: 100%;
-  min-height: 675px;
 }
 
 body {
@@ -22,21 +21,25 @@ body {
 
 main {
   display: block;
-  width: 90%;
   margin: 0 auto;
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 36px;
 }
 
 h2 {
-  font-size: 28px;
-  margin-bottom: 80px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-p {
-  font-size: 24px;
+section {
+  display: block;
+  padding: 1px;
+  margin: 0 auto;
+  height: 100%;
+  width: 90%;
+  margin-bottom: 40px;
 }
 
 .cover, .contact {
@@ -67,7 +70,25 @@ footer {
 }
 
 @media only screen and (min-width: 660px) {
+  body, main, section {
+    height: 100%;
+    min-height: 675px;
+  }
+
   main {
     width: 60%;
+  }
+
+  h1 {
+    font-size: 56px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 80px;
+  }
+  
+  p {
+    font-size: 24px;
   }
 }
