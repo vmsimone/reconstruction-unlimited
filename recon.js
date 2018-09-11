@@ -1,16 +1,7 @@
-function showAbout() {
-  console.log('showing about');
-  $('main').animate({
-        left: '-100%'
+function readyScroll() {
+  $('#fullpage').fullpage({
+    autoScrolling: true
   });
-  //   $('main').append(`
-    
-  // `);
 }
 
-function readyScroll(callback) {
-  console.log('readied');
-  $('button').click(callback);
-}
-
-$(readyScroll(showAbout));
+$(readyScroll);
