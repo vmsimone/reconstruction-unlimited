@@ -42,12 +42,6 @@ section {
   margin-bottom: 40px;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 5%;
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -94,10 +88,6 @@ footer {
 
   main {
     width: 60%;
-  }
-
-  img {
-    max-width: 10%;
   }
 
   h1 {
