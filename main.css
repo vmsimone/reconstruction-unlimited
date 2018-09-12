@@ -42,6 +42,12 @@ section {
   margin-bottom: 40px;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 5%;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -77,6 +83,7 @@ span {
 
 footer {
   margin-top: 50%;
+  font-size: 16px;
 }
 
 @media only screen and (min-width: 660px) {
@@ -87,6 +94,10 @@ footer {
 
   main {
     width: 60%;
+  }
+
+  img {
+    max-width: 10%;
   }
 
   h1 {
