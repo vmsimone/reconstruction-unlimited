@@ -1,3 +1,3 @@
 # reconstruction-unlimited
 
-live: https://reconstructionunlimited.com/
+live: https://www.reconstructionunlimited.com/
