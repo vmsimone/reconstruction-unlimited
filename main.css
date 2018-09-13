@@ -24,6 +24,10 @@ main {
   margin: 0 auto;
 }
 
+img {
+  max-width: 50%;
+}
+
 h1 {
   font-size: 36px;
 }
@@ -88,6 +92,10 @@ footer {
 
   main {
     width: 60%;
+  }
+
+  img {
+    max-width: 100%;
   }
 
   h1 {
