@@ -13,7 +13,7 @@ html, body, main {
 }
 
 body {
-  background: black;
+  background: #666666;
   color: white;
   text-align: left;
   font-family: 'norwester';
@@ -37,6 +37,10 @@ h2 {
   margin-bottom: 20px;
 }
 
+p {
+  font-size: 16px;
+}
+
 section {
   display: block;
   padding: 20px;
@@ -53,7 +57,7 @@ a {
 
 a:hover,
 a:focus {
-  color: red;
+  color: rgb(255, 95, 95);
 }
 
 .cover, .contact {
@@ -65,9 +69,9 @@ a:focus {
 }
 
 .cover p {
-  color: red;
+  color: rgb(255, 95, 95);
   font-family: 'Courgette', cursive;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .contact {
@@ -76,7 +80,7 @@ a:focus {
 }
 
 span {
-  color: red;
+  color: rgb(255, 95, 95);
 }
 
 footer {
@@ -94,6 +98,10 @@ footer {
     width: 60%;
   }
 
+  .cover p {
+    font-size: 24px;
+  }
+
   img {
     max-width: 100%;
   }
@@ -103,8 +111,8 @@ footer {
   }
   
   h2 {
-    font-size: 28px;
-    margin-bottom: 80px;
+    font-size: 30px;
+    margin-bottom: 40px;
   }
   
   p {
