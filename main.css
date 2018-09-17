@@ -8,13 +8,17 @@
        url('./fonts/norwester.otf') format('svg'); /* Legacy iOS */
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html, body, main {
   height: 100%;
 }
 
 body {
-  background: #666666;
-  color: white;
+  background: white;
+  color: black;
   text-align: left;
   font-family: 'norwester';
 }
@@ -52,12 +56,12 @@ section {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 a:hover,
 a:focus {
-  color: rgb(255, 95, 95);
+  color: red;
 }
 
 .cover, .contact {
@@ -65,7 +69,7 @@ a:focus {
 }
 
 .cover p {
-  color: rgb(255, 95, 95);
+  color: red;
   font-family: 'Courgette', cursive;
   font-size: 18px;
 }
@@ -75,13 +79,30 @@ a:focus {
   margin-bottom: 20px;
 }
 
-span {
-  color: rgb(255, 95, 95);
+ul {
+  padding: 0;
 }
 
-footer {
-  margin-top: 50%;
+li {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+a.btn {
+  display: block;
+  margin: 0 auto;
+  font-family: 'norwester';
   font-size: 14px;
+  border: 4px black solid;
+  padding: 10px;
+  width: 150px;
+}
+
+a.btn:hover,
+a.btn:focus {
+  border-color: red;
+  color: red;
+  cursor: pointer;
 }
 
 .testimonials p {
@@ -89,7 +110,12 @@ footer {
   margin-bottom: 25px;
 }
 
-@media only screen and (min-width: 660px) {
+footer {
+  margin-top: 50%;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 735px) {
   body, main, section {
     height: 100%;
     min-height: 675px;
@@ -118,5 +144,15 @@ footer {
   
   p {
     font-size: 22px;
+  }
+
+  li {
+    display: inline;
+    margin: 20px;
+  }
+
+  a.btn {
+    display: inline-block;
+    font-size: 18px;
   }
 }
